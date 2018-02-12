@@ -10,7 +10,7 @@
                     $totalPoints = 1000;
                     echo "<h1>Jackpot!</h1>";
                     echo "<audio controls autoplay>
-                            <source src='SlotMachine/SoundEffect/winning_SE.mp3' type='audio/mpeg'>
+                            <source src='SlotMachine/SoundEffects/winning_SE.mp3' type='audio/mpeg'>
                           </audio>";
                     break;
                 case 1:
@@ -35,7 +35,7 @@
         else {
             echo "<h3> Try again! </h3>";
             echo "<audio controls autoplay>
-                    <source src='SoundEffect/Family_Feud_Wrong_Answer_Buzzer-_SE.mp3' type='audio/mpeg'>
+                    <source src='SoundEffects/Family_Feud_Wrong_Answer_Buzzer-_SE.mp3' type='audio/mpeg'>
                   </audio>";
         }
         
